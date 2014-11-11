@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -eo pipefail
+
+if test -f $build/.compile
+then
+  bash $build/.compile
+fi
+

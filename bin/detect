@@ -1,0 +1,9 @@
+#!/bin/bash
+
+set -e
+
+if test -f $build/.compile
+then echo CustomScript; exit 0
+else echo no; exit 1
+fi
+
